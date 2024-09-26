@@ -1,105 +1,105 @@
 lang_name: English
 lang_flag: 🇺🇸
 lang_changed: The language has been changed to English!
-back: Back
-theme: Theme
-settings_text: Settings
-info_theme: You choose a theme for the cards
+back: Geri
+theme: Tema
+settings_text: Ayarlar
+info_theme: Kartlar için bir tema seçin
 seven_zero: 7-0
-info_seven: When a 7 is played, the player can swap cards with another player. When a 0 is played, everyone passes their cards to the next player.
-sbluff: Bluff
-info_bluff: When a player plays a +4 card, the next one can challenge. If the player who played the +4 card has another card to play, they draw 4 cards. If not, the one who challenged draws 6.
-one_win: One winner
-info_one_win: When the first player runs out of cards, the game ends and they are the winner.
-one_card: Say UNO
-info_one_card: When a player has only one card, they must say UNO. If they don't, they must draw 2 cards.
-auto_pin: Auto pin
-info_auto_pin: When a game starts, the bot will automatically pin the game message.
-stack: Stack draw cards
-info_stack: When a player receives a +2 or +4 card, they can play another +2 or +4 card. The next player must draw the sum of the cards.
-language: Language
-info_lang: You can change the bot's language.
-choose_lang: Choose a language
-start_text: "Hello! I am the UNO Bot, a bot to play UNO on Telegram!\n\nTo play, put me in a group and send /new to start a new game!\n\nor to configure use the buttons below!"
-help: Help
-game_mode: Game Mode
-status: Status
-game_mode_text: "Showing information of available game modes!\n\n"
-settings: "Welcome to the settings menu!\n\nChoose an option below to configure the bot."
-theme_config: "Choose a theme for the cards:"
+info_seven: 7 oynandığında, oyuncu diğer bir oyuncuyla kart değiştirebilir. 0 oynandığında, herkes kartlarını bir sonraki oyuncuya verir.
+sbluff: Blöf
+info_bluff: Bir oyuncu +4 kart oynadığında, bir sonraki oyuncu meydan okuyabilir. +4 kartı oynayan oyuncunun oynayacak başka bir kartı varsa, 4 kart çeker. Yoksa, meydan okuyan oyuncu 6 kart çeker..
+one_win: Birinci kazanan
+info_one_win: İlk oyuncunun kartları bittiğinde oyun sona erer ve kazanan olur..
+one_card: UNO dediii😱
+info_one_card: Bir oyuncunun sadece bir kartı varsa, UNO demesi gerekir. Yoksa, 2 kart çekmesi gerekir..
+auto_pin: Otomatik pin
+info_auto_pin: Bir oyun başladığında, bot otomatik olarak oyun mesajını sabitleyecek.
+stack: Yığın çekme kartları
+info_stack: Bir oyuncu +2 veya +4 kart aldığında, başka bir +2 veya +4 kart oynayabilir. Bir sonraki oyuncu kartların toplamını çekmelidir..
+language: Dil
+info_lang: Botun dilini değiştirebilirsiniz.
+choose_lang: Bir dil seçin
+start_text: "Merhaba! Ben UNO Bot'um, Telegram'da UNO oynamak için bir bot!\n\nOynamak için beni bir gruba ekleyin ve yeni bir oyun başlatmak için /new yazın!\n\veya yapılandırmak için aşağıdaki düğmeleri kullanın!"
+help: Yardım
+game_mode: Oyun Modu
+status: Durum
+game_mode_text: "Mevcut oyun modlarının bilgilerini gösteriyor!\n\n"
+settings: "Ayarlar menüsüne hoş geldiniz!\n\nBotu yapılandırmak için aşağıdan bir seçenek seçin."
+theme_config: "Kartlar için bir tema seçin:"
 minimalist: Minimalist
-classic: Classic
-colorblind: Colorblind
-game_existis: There is already a game in progress!
-only_group: This command only works in groups!
-already_in_game: You are already in another game
-already_joined: You are already in the game!
-join: Join
-leave: Leave
-start_game: Start Game
-game_started: A new game has started!
-no_game: There is no game in progress!
-no_game_text: No game in progress, send /new to start a new game!
-lobby_closed: The lobby is closed!
-lobby_opened: The lobby is open!
-joined_game: You joined the game!
-player_joined: "{name} joined the game!"
-no_joinned: You are not in the game!
-next: Next {name}
-game_over: The game is over!
-player_left: "{name} left the game!"
-left_game: You left the game!
-not_allowed: You are not allowed to do that!
-game_already_started: The game has already started!
-info_text: "🃏 Game Information:\nCurrent player - {current_player}\nLast card - {last_card}\n"
-info_text2: "{player}: {cards} cards, "
+classic: Klasik
+colorblind: Renk körü
+game_existis: Zaten devam eden bir oyun var!
+only_group: Bu komut yalnızca gruplarda çalışır!
+already_in_game: Zaten başka bir oyundasın
+already_joined: Zaten oyundasın!
+join: Katıl
+leave: Ayrıl
+start_game: Oyunu Başlat
+game_started: Yeni bir oyun başladı!
+no_game: Devam eden bir oyun yok!
+no_game_text: Devam eden bir oyun yok, yeni bir oyun başlatmak için /new gönderin!
+lobby_closed: Lobi kapalı!
+lobby_opened: Lobi açık!
+joined_game: Oyuna katıldınız!
+player_joined: "{name} oyuna katıldı!"
+no_joinned: Sen oyunda değilsin!
+next: Sonraki {name}
+game_over: Oyun bitti!
+player_left: "{name} oyunu terk etti!"
+left_game: Oyunu bıraktın!
+not_allowed: Bunu yapmanıza izin verilmiyor!
+game_already_started: Oyun çoktan başladı!
+info_text: "🃏 Oyun Bilgileri:\nMevcut oyuncu - {current_player}\nSon kart - {last_card}\n"
+info_text2: "{player}: {cards} kartları, "
 pass: Pass
-buy: Buy {number} card(s)
-bluff: I think you're bluffing!
-cards_swapped: "{name1} swapped cards with {name2}"
-not_swapped: Due to the number of players, it was not possible to swap cards!
-swapped: The cards have been swapped!
-bought: You bought {number} cards!
-bluffed: "{name} You can't bluff!\n{name} drew {draw} cards!"
-not_bluffed: "{name1} You didn't bluff!\n{name2} drew {draw} cards!"
-colorchoose: "{name} choose a color!"
-colorchoosed: I chose the color {color}!
-playerchoose: "{name} choose a player!"
-invalid_card: Invalid move!
-said_uno: "{name} shouted UNO!"
-say_uno: "{name} say UNO or draw 2 cards!"
-not_said_uno: "{name} You didn't shout UNO!\n{name} drew 2 cards!"
+buy: {number} kart satın al
+bluff: Bence blöf yapıyorsun!
+cards_swapped: "{name1}, {name2} ile kartlarını değiştirdi"
+not_swapped: Oyuncu sayısının çokluğu nedeniyle kart değişimi yapılamadı.!
+swapped: Kartlar değiştirildi!
+bought: {number} kart satın aldınız!
+bluffed: "{name} Blöf yapamazsın!\n{name} {draw} kart çekti!"
+not_bluffed: "{name1} Blöf yapmadın!\n{name2} {draw} kart çekti!"
+colorchoose: "{name} bir renk seçin!"
+colorchoosed: {color} rengini seçtim!
+playerchoose: "{name} bir oyuncu seçin!"
+invalid_card: Geçersiz hareket!
+said_uno: "{name} UNO diye bağırdı!"
+say_uno: "{name} UNO deyin veya 2 kart çekin!"
+not_said_uno: "{name} UNO diye bağırmadın!\n{name} 2 kart çekti!"
 won: "{name} won the game!"
-won_first: "{name} won the game in first place!"
-continuing: continuing the game with {count} players
-play: Play
-admin_only: Only the group admin can use this!
-game_ruinning: You can't change the settings while a game is running!
-theme_changed: The theme has been changed to {theme}!
-sudos: Change sudoers
-sudo_menu: "Welcome to the sudoers menu!\n\nChoose an option below to configure the bot."
-sudoers: "Users with sudo permissions:\n\n"
-add_sudo: Add user
-rm_sudo: Remove user
-send_user_id: Send the user ID or username you want to add to the sudoers
+won_first: "{name} oyunu birinci olarak kazandı!"
+continuing: {count} oyuncuyla oyuna devam ediliyor
+play: Oyna
+admin_only: Bunu yalnızca grup yöneticisi kullanabilir!
+game_ruinning: Bir oyun çalışırken ayarları değiştiremezsiniz!
+theme_changed: Tema {theme} olarak değiştirildi!
+sudos: Sudoersı değiştir
+sudo_menu: "Sudoers menüsüne hoş geldiniz!\n\nBotu yapılandırmak için aşağıdan bir seçenek seçin."
+sudoers: "Sudo izinlerine sahip kullanıcılar:\n\n"
+add_sudo: Kullanıcı ekle
+rm_sudo: Kullanıcıyı kaldır
+send_user_id: Eklemek istediğiniz kullanıcı kimliğini veya kullanıcı adını sudoersa gönderin
 user_not_found: User not found!
-user_sudoer: "{user} is already a sudoer!"
-user_added: "{user} has been added to the sudoers!"
-select_user: "Select a user to remove from the sudoers\n\n"
-user_not_sudoer: "{user} is not a sudoer!"
-user_removed: "{user} has been removed from the sudoers!"
-add_theme: Add new theme
-send_theme_name: Send the name of the new theme
-send_sticker: "Send a sticker to replace the sticker:"
-theme_added: The theme {name} has been added!
-add_card: Add new card
-update_card: Update card
-verify_card: Verify cards
-sudo_theme: What do you want to do with the theme {theme}?
-send_card_code: Send the code of the card you want to add
-send_colored_card: Send the colored sticker to {code} card
-send_gray_card: Send the gray sticker to {code} card
-card_added: The card {code} has been added!
-light: Light
-dark: Dark
-choose_card: Choose a card to update
+user_sudoer: "{user} zaten bir sudoer!"
+user_added: "{user} sudoers'a eklendi!"
+select_user: "Sudoers'den kaldırılacak bir kullanıcı seçin\n\n"
+user_not_sudoer: "{user} bir sudoer değil!"
+user_removed: "{user} sudoers'tan kaldırıldı!"
+add_theme: Yeni tema ekle
+send_theme_name: Yeni temanın adını gönder
+send_sticker: "Çıkartmayı değiştirmek için bir çıkartma gönder:"
+theme_added: {name} teması eklendi!
+add_card: Yeni kart ekle
+update_card: Kartı güncelle
+verify_card: Kartları doğrula
+sudo_theme: {theme} temasıyla ne yapmak istiyorsunuz??
+send_card_code: Eklemek istediğiniz kartın kodunu gönderin
+send_colored_card: Renkli çıkartmayı {code} kartına gönder
+send_gray_card: Gri etiketi {code} kartına gönder
+card_added: {code} kartı eklendi!
+light: Aydınlık
+dark: Karanlık
+choose_card: Güncellemek için bir kart seçin
