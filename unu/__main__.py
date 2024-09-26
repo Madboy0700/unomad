@@ -1,7 +1,7 @@
 import os
 
 from hydrogram import idle
-from tortoise import run_async
+from asyncio import run_async
 
 from config import bot
 from unu.db import connect_database
